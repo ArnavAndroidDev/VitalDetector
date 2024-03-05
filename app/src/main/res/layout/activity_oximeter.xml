@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".oximeter">
+
+    <Button
+        android:id="@+id/HR"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/b"
+        android:text="Heart Rate"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/RR"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/b"
+        android:text="Respiration Rate"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HR" />
+
+    <Button
+        android:id="@+id/BP"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/b"
+        android:text="Blood Pressure"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RR" />
+
+    <Button
+        android:id="@+id/O2"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/b"
+        android:text="Oximeter"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BP" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

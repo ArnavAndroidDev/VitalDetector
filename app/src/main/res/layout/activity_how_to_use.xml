@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".How_To_Use">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.87"
+            android:fontFamily="@font/b"
+            android:text="Lightly place your index finger on the rear camera.\nMake sure the camera is fully covered.\nMeasure in a shaded environment.\nDon't move your finger until the measurement is complete. \nFinally place your finger then start. "
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewgfgfg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.87"
+            android:fontFamily="@font/b"
+            android:text="Important Setting-\nTurn Your Mobile Torch Level to 5"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewh" />
+
+        <TextView
+            android:id="@+id/textViewfgfg4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.87"
+            android:fontFamily="@font/b"
+            android:text="Recommendations-\nPlace your left index finger on the camera while measuring Blood Pressure\nMeasure Your Heart Rate First for accurate Blood Pressure Measurement\nAfter measuring Blood Pressure wait for some time or re-open app to measure blood pressure again.\nUse your left finger to measure use oximeter and respiration rate\nWhen using Hemoglobin Detector, Click picture of your nails in a dark room with flash on.\nThen, click on gallery button and choose the Image then, Click on the process button\nHemoglobin detector can take 5-10 minute to detect hemoglobin\nThe skin cancer detector can only detect melanoma skin cancer for now."
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewgfgfg1" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3769558735823955/1101698565"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewfgfg4">
+
+        </com.google.android.gms.ads.AdView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

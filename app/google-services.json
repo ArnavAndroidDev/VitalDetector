@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "562031273280",
+    "project_id": "vital-detector",
+    "storage_bucket": "vital-detector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562031273280:android:13ed6d08f87971562586a5",
+        "android_client_info": {
+          "package_name": "com.gamingIsland.vitaldetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562031273280-gqeu0m08eoe7i9pi0urj0og7oakrj8l0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo3uJz1qph0JnXWRZA8OlCHKMRPwYZ9rU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562031273280-gqeu0m08eoe7i9pi0urj0og7oakrj8l0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
